@@ -10,16 +10,278 @@ body {
     background-size: 3.5em 3.5em;
   }
 
+.chainball {
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.chainball-2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: 10px;
+    z-index: -1;
+}
+
+.chainball-3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: 25px;
+    z-index: -1;
+}
+
+.chainball-4 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: 43px;
+    z-index: -1;
+}
+
+.chainball-5 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -52px;
+    margin-left: 63px;
+    z-index: -1;
+}
+
+.chainball-6 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: 75px;
+    z-index: -1;
+}
+
+.chainball-7 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -85px;
+    margin-left: 93px;
+    z-index: -1;
+}
+
+.chainball-8 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -105px;
+    margin-left: 105px;
+    z-index: -1;
+}
+
+.chainball-9 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: 125px;
+    z-index: -1;
+}
+
+.chainball-10 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: 145px;
+    z-index: -1;
+}
+
+.chainball-11 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -95px;
+    margin-left: 155px;
+    z-index: -1;
+}
+
+.chainball-12 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: 145px;
+    z-index: -1;
+}
+
+.chainball-13 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: 130px;
+    z-index: -1;
+}
+
+.chainball-14 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: 115px;
+    z-index: -1;
+}
+
+.chainball-15 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: 100px;
+    z-index: -1;
+}
+
+.chainball-16 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: 85px;
+    z-index: -1;
+}
+
+.chainball-17 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: 65px;
+    z-index: -1;
+}
+
+.chainball-18 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: 50px;
+    z-index: -1;
+}
+
+.chainball-body {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: -190px;
+    margin-left: -37px;
+    border-radius: 100%;
+    background-color: #b8b8b9;
+    box-shadow: -1px -2px 3px rgba(77, 77, 77, 0.366) inset;
+
+}
+
+
+.chainball-highlight{
+    position: absolute;
+    width:12px;
+    height:7px;
+    margin-top: -185px;
+    /* margin-top: -245px; */
+    margin-left: -30px;
+    clip-path: polygon(0 0, 100% 0%, 78% 100%, 15% 100%);
+    background-color: #fbfbfd;
+}
+
+.chainball-highlight2{
+    position: absolute;
+    margin-top: -200px;
+    /* margin-top: -260px; */
+    margin-left: -42.5px;
+    background-color: #fbfbfd;
+    clip-path: ellipse(15% 5% at 50% 51%);
+    width:37px;
+    height: 30px;
+}
+
+.chainball-midshadow{
+    position: absolute;
+    margin-top: -204px;
+    /* margin-top: -264px; */
+    margin-left: -41px;
+    background-color: #a9a8ad;
+    clip-path: ellipse(27% 20% at 45% 71%);
+    width:37px;
+    height: 35px;
+}
+
+.chainball-darkshadow{
+    position: absolute;
+    margin-top: -198px;
+    /* margin-top: -258px; */
+    margin-left: -36px;
+    background-color: #242a2f;
+    clip-path: ellipse(27% 20% at 45% 71%);
+    width:26px;
+    height: 25px;
+}
+
+.chainball-darkershadow{
+    position: absolute;
+    margin-top: -186px;
+    /* margin-top: -246px; */
+    margin-left: -34px;
+    background-color: #70737b;
+    clip-path: polygon(33% 15%, 28% 17%, 23% 20%, 20% 23%, 16% 27%, 14% 29%, 13% 32%, 12% 37%, 10% 42%, 10% 48%, 9% 55%, 9% 60%, 9% 67%, 14% 65%, 22% 64%, 28% 63%, 33% 65%, 36% 66%, 39% 67%, 41% 63%, 41% 55%, 42% 50%, 44% 46%, 47% 40%, 50% 35%, 53% 32%, 53% 22%, 51% 16%, 50% 10%, 42% 11%);
+    width:10px;
+    height: 10px;
+}
+
+.chainball-darkershadow2{
+    position: absolute;
+    margin-top: -180px;
+    /* margin-top: -240px; */
+    margin-left: -25px;
+    background-color: #70737b;
+    clip-path: polygon(36% 22%, 56% 23%, 80% 56%, 73% 63%, 66% 65%, 61% 66%, 56% 68%, 51% 68%, 45% 68%, 40% 68%, 41% 63%, 43% 57%, 44% 52%, 44% 43%, 42% 34%, 39% 28%);    width:10px;
+    height: 10px;
+}
+
+.chainball-darkshadow2{
+    position: absolute;
+    margin-top: -187px;
+    /* margin-top: -247px; */
+    margin-left: -32px;
+    background-color: #242a2f;
+    clip-path: polygon(53% 21%, 32% 65%, 57% 85%, 63% 77%, 65% 71%, 66% 65%, 67% 60%, 67% 56%, 68% 50%, 68% 46%, 68% 41%, 68% 37%, 68% 32%, 66% 28%, 63% 25%, 62% 22%, 58% 19%, 55% 18%);
+    height: 15px;
+    width:25px;
+}
+
+
+/* @keyframes jump {
+    15% { transform: translate(-1.85px, 14.5px) scale(3.2, 2); }
+    50% { transform: translate(-1.85px, -60px) scale(3, 3); }
+    100% { transform: translate(-1.85px, 14.5px) scale(3.2, 2); }
+    50% { transform: translate( -1.85px, -60px) scale(3, 3); }
+    85% { transform: translate(-1.85px, 14px) scale(3.2, 2); }
+    100% { transform: translate(0%, -10px) scale(3, 3); }
+} */
+
 
   .pixelart {
     position: fixed;
+    /* animation: jump 1.2s ; */
     left: 50%;
     top:50%;
     width: 1px;
-    margin-top: -16px;
-    margin-left: -40px;
-    height: .5px;
-    transform: scale(3.2);
+    /* margin-top: 20px; */
+    margin-left: -37px;
+    height: 1px;
+    transform: translate(0%, -10px) scale(3 ,3);
     background: transparent;
     box-shadow: 9px 1px #131413, 10px 1px #131413, 14px 1px #131413, 15px 1px #131413, 8px 2px #131413, 11px 2px #131413, 13px 2px #131413, 16px 2px #131413, 8px 3px #131413, 11px 3px #131413, 13px 3px #131413, 16px 3px #131413, 8px 4px #131413, 11px 4px #131413, 13px 4px #131413, 16px 4px #131413, 8px 5px #131413, 11px 5px #131413, 13px 5px #131413, 16px 5px #131413, 8px 6px #131413, 11px 6px #131413, 12px 6px #131413, 13px 6px #131413, 16px 6px #131413, 7px 7px #131413, 8px 7px #131413, 16px 7px #131413, 17px 7px #131413, 22px 7px #131413, 24px 7px #131413, 6px 8px #131413, 7px 8px #131413, 17px 8px #131413, 18px 8px #131413, 21px 8px #131413, 23px 8px #131413, 25px 8px #131413, 6px 9px #131413, 18px 9px #131413, 20px 9px #131413, 26px 9px #131413, 6px 10px #131413, 10px 10px #131413, 14px 10px #131413, 18px 10px #131413, 21px 10px #131413, 25px 10px #131413, 6px 11px #131413, 18px 11px #131413, 22px 11px #131413, 24px 11px #131413, 5px 12px #131413, 6px 12px #131413, 11px 12px #131413, 12px 12px #131413, 13px 12px #131413, 18px 12px #131413, 19px 12px #131413, 22px 12px #131413, 23px 12px #131413, 24px 12px #131413, 4px 13px #131413, 5px 13px #131413, 19px 13px #131413, 20px 13px #131413, 22px 13px #131413, 24px 13px #131413, 3px 14px #131413, 4px 14px #131413, 20px 14px #131413, 21px 14px #131413, 22px 14px #131413, 24px 14px #131413, 3px 15px #131413, 21px 15px #131413, 24px 15px #131413, 3px 16px #131413, 6px 16px #131413, 18px 16px #131413, 21px 16px #131413, 23px 16px #131413, 4px 17px #131413, 5px 17px #131413, 6px 17px #131413, 18px 17px #131413, 19px 17px #131413, 20px 17px #131413, 23px 17px #131413, 6px 18px #131413, 18px 18px #131413, 22px 18px #131413, 6px 19px #131413, 18px 19px #131413, 20px 19px #131413, 21px 19px #131413, 6px 20px #131413, 12px 20px #131413, 18px 20px #131413, 19px 20px #131413, 20px 20px #131413, 7px 21px #131413, 12px 21px #131413, 17px 21px #131413, 8px 22px #131413, 12px 22px #131413, 16px 22px #131413, 9px 23px #131413, 10px 23px #131413, 11px 23px #131413, 13px 23px #131413, 14px 23px #131413, 15px 23px #131413;
 }
@@ -235,6 +497,7 @@ body {
 
 .botton-left{
     position: fixed;
+    cursor: pointer;
     left: 50%;
     top:50%;
     margin-top: 117px;
@@ -266,6 +529,7 @@ body {
 
 .botton-middle{
     position: fixed;
+    cursor: pointer;
     left: 50%;
     top:50%;
     margin-top: 129px;
@@ -298,6 +562,7 @@ body {
     position: fixed;
     left: 50%;
     top:50%;
+    cursor: pointer;
     margin-top: 117px;
     margin-left: 37px;
     width: 25px;
@@ -322,4 +587,35 @@ body {
     box-shadow: 0px -2px 1px rgba(62, 62, 62, 0.512) inset;
     rotate: -45deg;
 
+}
+
+.tamagotchi-text{
+    font-family: felt-tip-roman, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    font-size: 22px;
+    margin-top: -147px;
+    margin-left: -57px;
+    letter-spacing: -1px;
+    color:white;
+    -webkit-text-stroke: 1px #800AC8;
+text-shadow: 2px 2px 0 #800AC8, 2px -2px 0 #800AC8, -2px 2px 0 #800AC8, -2px -2px 0 #800AC8, 2px 0px 0 #800AC8, 0px 2px 0 #800AC8, -2px 0px 0 #800AC8, 0px -2px 0 #800AC8;}
+
+.tamagotchi-textstroke{
+    font-family: felt-tip-roman, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 25px;
+    margin-top: -149px;
+    margin-left: -61px;
+    letter-spacing: -2px;
+    color: #800AC8;
+    -webkit-text-stroke: 1px #800AC8;
+    text-shadow: 2px 2px 0 #800AC8, 2px -2px 0 #800AC8, -2px 2px 0 #800AC8, -2px -2px 0 #800AC8, 2px 0px 0 #800AC8, 0px 2px 0 #800AC8, -2px 0px 0 #800AC8, 0px -2px 0 #800AC8;
 }
