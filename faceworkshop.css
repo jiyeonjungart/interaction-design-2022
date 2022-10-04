@@ -1,0 +1,146 @@
+body{
+ background-color: #2C2C2C;
+}
+
+.hat{
+    position: absolute;
+
+    width: 479px;
+    height: 270px;
+    left: 537px;
+    top: 225px;
+    clip-path: polygon(0 0, 100% 0, 81% 100%, 17% 99%);
+    transform: rotate(180deg);
+    border-radius: 200px 200px 4000px 4000px ;
+    background: linear-gradient(180.17deg, rgba(151, 151, 151, 0.2) 46.06%, rgba(0, 0, 0, 0) 99.85%), #000000;
+}
+
+
+
+.face{
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    left: 583px;
+    top: 240px;
+    border-radius: 100%;
+    background: #FBE8D6;
+}
+
+.eye1{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 683px;
+    top: 508px;
+    background: #000000;
+    border-radius: 32px;
+}
+
+.hair1{
+    position: absolute;
+width: 90px;
+height: 418px;
+left: 570px;
+top: 365px;
+
+background: #1C140C;
+border-radius: 355px;
+}
+
+.hair2{
+    position: absolute;
+width: 321px;
+height: 239px;
+left: 619px;
+top: 544px;
+
+background: #1C140C;
+}
+
+.hair3{
+    position: absolute;
+    width: 90px;
+    height: 418px;
+    left: 893px;
+    top: 365px;
+    background: #1C140C;
+    border-radius: 355px;
+}
+
+.eye2{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 842px;
+    top: 508px;
+    background: #000000;
+    border-radius: 32px;
+}
+
+.masknose{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 685px;
+    top: 523px;
+    border-style: solid;
+    border-width: 0 88px 76px 88px;
+    border-color: transparent transparent #000000 transparent;
+}
+
+.maskbody{
+    position: absolute;
+    width: 360px;
+    height: 130px;
+    left: 595px;
+    top: 553px;
+    border-radius:  0 0 3000px 3000px;
+    background: #030303;
+}
+
+.blush1{
+    position: absolute;
+    width: 69px;
+    height: 89px;
+    left: 619px;
+    top: 506px;
+    border-radius: 100%;
+    background: rgba(215, 102, 190, 0.66);
+    filter: blur(15px);
+}
+
+.blush2{
+    position: absolute;
+    width: 69px;
+    height: 89px;
+    left: 865px;
+    top: 506px;
+    border-radius: 100%;
+    background: rgba(215, 102, 190, 0.66);
+    filter: blur(15px);
+    }
+
+    .eyelash1{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        left: 683px;
+top: 510px;
+        border-width: 8px 8px 0 0;
+        border-color: #000000 transparent transparent transparent;
+        transform: rotate(0deg);
+    }
+
+    .eyelash2{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 857px;
+        top: 510px;
+border-style: solid;
+border-width: 0 8px 8px 0;
+border-color: transparent #000000 transparent transparent;
+transform: rotate(0deg);
+    }
