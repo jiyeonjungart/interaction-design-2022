@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #B6C5DB;
+    background-image: linear-gradient(#FFFFFF 2px, transparent .1em), linear-gradient(90deg, #FFFFFF 2px, transparent .1em);
+    background-size: 5em 5em;
+}
+
+.sketchbody{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -370px;
+    margin-top: -370px;
+    width: 744px;
+    height: 738px;
+    border-radius: 3.5rem;
+    background: linear-gradient(359.84deg, rgba(0, 0, 0, 0.106) -3.33%, rgba(222, 76, 101, 0.2) 84.24%), #B6002D;
+    box-shadow: inset -14px 0px 5px #EF3857, inset 15px 0px 10px #7A001B, inset 0px 16px 5px #FF4461, inset -9px -30px 15px #7A001B;
+}
+
+.canvas{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -268px;
+    margin-top: -280px;
+    width: 541px;
+    height: 471px;
+    border-radius: 3.5rem;
+    background: #8D92C0;
+    box-shadow: inset -4px 19px 7px 6px rgba(0, 0, 0, 0.25), 15px 0px 16px #7A001B,  -14px 5px 10px #EF3857, 0px 16px 10px #FF4461, -9px -20px 25px #7A001B;
+    border-radius: 34px;
+}
+
+.etchasketchtext{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 260px;
+    letter-spacing: 6px;
+    color: #D8B888;
+    font-size: 40px;
+    font-family: hobeaux,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 3px 6px 6px rgba(0,0,0,.5), 1px -2px 0px rgb(253, 255, 210);
+}
+
+.traveltext{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 240px;
+    letter-spacing: 4px;
+    color: #D8B888;
+    font-size: 26px;
+    font-family: hobeaux,sans-serif;
+    font-weight: 700;
+    transform: rotate(-20deg);
+    font-style: normal;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 3px 4px 3px rgba(0,0,0,.5), 1px -2px 0px rgb(253, 255, 210);
+}
+
+.leftbuttonbig{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: 220px;
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    background: linear-gradient(19.51deg, rgba(111, 94, 139, 0.68) 21.78%, rgba(255, 255, 255, 0.68) 79.96%), #FFF7FF;
+    box-shadow: -9px 13px 11px 6px rgba(0, 0, 0, 0.35), inset -10px 13px 4px rgba(230, 238, 245, 0.25), inset 4px -5px 4px rgba(119, 118, 135, 0.6);
+}
+
+.leftbuttonsmall{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -336px;
+    margin-top: 232px;
+    background: linear-gradient(36.48deg, rgba(133, 127, 184, 0.61) 13.05%, rgba(144, 149, 214, 0.61) 13.05%, rgba(255, 255, 255, 0.61) 79.64%), #FEF6FF;
+    box-shadow: inset -7px 12px 16px #8983BE, inset -13px 18px 17px 12px rgba(146, 154, 200, 0.49);
+    width: 101.08px;
+    height: 101.08px;
+    border-radius: 100%;
+}
+
+.buttonlinesleft{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: 220px;
+}
+
+.rightbuttonbig{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 225px;
+    margin-top: 220px;
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    background: linear-gradient(19.51deg, rgba(111, 94, 139, 0.68) 21.78%, rgba(255, 255, 255, 0.68) 79.96%), #FFF7FF;
+    box-shadow: -9px 13px 11px 6px rgba(0, 0, 0, 0.35), inset -10px 13px 4px rgba(230, 238, 245, 0.25), inset 4px -5px 4px rgba(119, 118, 135, 0.6);
+}
+
+.rightbuttonsmall{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 240px;
+    margin-top: 232px;
+    background: linear-gradient(36.48deg, rgba(133, 127, 184, 0.61) 13.05%, rgba(144, 149, 214, 0.61) 13.05%, rgba(255, 255, 255, 0.61) 79.64%), #FEF6FF;
+    box-shadow: inset -7px 12px 16px #8983BE, inset -13px 18px 17px 12px rgba(146, 154, 200, 0.49);
+    width: 101.08px;
+    height: 101.08px;
+    border-radius: 100%;
+}
+
+.buttonlinesright{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 225px;
+    margin-top: 220px;
+}
+
+.toptext{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    margin-left: -145px;
+    margin-top: -345px;
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c60d3bec;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.28), 0px -2px 0px #f0144b;
+}
