@@ -102,12 +102,12 @@ body  {
 
 .connectcirclebottom{
     position: absolute;
-    width: 37px;
-    height: 54px;
+    width: 39px;
+    height: 53px;
     top: 50%;
     left: 50%;
     margin-top: 39px;
-    margin-left: -128px;
+    margin-left: -130px;
     background: #F1B7D6;
     box-shadow: inset 2px -5px 10px #A06783;
     border-radius: 79px;
@@ -120,7 +120,7 @@ body  {
     top: 50%;
     left: 50%;
     margin-top: 48px;
-    margin-left: -123px;
+    margin-left: -124px;
     background: #DADAE3;
     box-shadow: inset -2px 4px 8px rgba(255, 255, 255, 0.87), inset 2px -5px 10px #999EAC;
     border-radius: 79px;
@@ -289,7 +289,7 @@ body  {
   width: 85px;
   height: 86px;
   margin-top: 150px;
-  margin-left: -24px;
+  margin-left: -22px;
   top: 50%;
   left: 50%;
   background: #ECA8CC;
@@ -302,10 +302,173 @@ box-shadow: inset -2px 3px 0px #FFBCE0;
   width: 50px;
   height: 50px;
   margin-top: 167px;
-  margin-left: -6px;
+  margin-left: -4px;
   top: 50%;
   left: 50%;
   border-radius: 100%;
   background: #E1EAF7;
   box-shadow: -1px 4px 0px #9EABC0, inset -4px 7px 0px #E8EFF9;
+}
+
+.button11{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 250px;
+  margin-left: -60px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button12{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 248px;
+  margin-left: 0px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button13{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 246px;
+  margin-left: 60px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button14{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 290px;
+  margin-left: -58px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button15{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 288px;
+  margin-left: 2px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button16{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 286px;
+  margin-left: 62px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button17{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 330px;
+  margin-left: -56px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button18{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 328px;
+  margin-left: 4px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.button19{
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  margin-top: 326px;
+  margin-left: 64px;
+  background: #E1EAF7;
+  box-shadow: -1px 3px 1px #9DABC0, inset -1px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  transform: matrix(1, -0.04, 0.05, 1, 0, 0);
+}
+
+.michole{
+  position: absolute;
+  width: 80.07px;
+  height: 11px;
+  top: 50%;
+  left: 50%;
+  margin-top: 375px;
+  margin-left: -10px;
+  background: #C14363;
+  border-radius: 16px;
+  transform: rotate(-2.15deg);
+}
+
+.michole1{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  margin-top: 395px;
+  margin-left: -12px;
+  border-radius: 100%;
+  background: #C14363;
+}
+
+.michole2{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  margin-top: 393px;
+  margin-left: 63px;
+  border-radius: 100%;
+  background: #C14363;
 }
