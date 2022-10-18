@@ -386,14 +386,14 @@ body{
 }
 
 .stickertype{
-    position: relative;
+    position: fixed;
     font-family: p22-freely,sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 45px;
     left: 50%;
     top: 50%;
-    margin-top: -60px;
-    margin-left: -68px;
+    margin-top: -110px;
+    margin-left: -30px;
     transform: rotate(17.54deg);
 }
