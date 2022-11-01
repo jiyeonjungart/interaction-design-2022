@@ -54,10 +54,10 @@ body {
 }
 
 .wandinside{
-    position: relative;
+    position: fixed;
     z-index: 1000;
     transform: rotate(-25deg);
-    margin-top: -60px;
+    margin-top: 20px;
     margin-left: -23px;
 }
 

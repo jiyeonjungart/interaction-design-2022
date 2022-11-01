@@ -1,3 +1,7 @@
+body{
+    background-color: #21076A;
+}
+
 .magicballfront, .magicballback{
     position: absolute;
     width: 100vw;
