@@ -5,6 +5,17 @@ body {
 	height: 100vh;
 }
 
+@keyframes shake{
+    0% { transform: rotate(-5deg); }
+    50%{ transform: rotate(5deg); }
+    75%{ transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.wand:hover{
+ animation: shake .5s;
+}
+
 .wand{
     position: absolute;
     left: 50%;
@@ -26,7 +37,7 @@ body {
     position: relative;
     margin-top: -300px;
     margin-left: -200px;
-
+    z-index: 1;
 }
 
 .wandtop{
@@ -34,7 +45,7 @@ body {
     width: 99.28px;
     height: 91.41px;
     margin-top: -50px;
-    margin-left: -10px;
+    margin-left: -20px;
     background: #E26994;
     border: 0.3px solid #000000;
     box-shadow: inset -59px 4px 4px #CA4E8C;
@@ -43,22 +54,35 @@ body {
 }
 
 .wandinside{
-    margin-top: -100px;
-    margin-left: -25px;
     position: relative;
     z-index: 1000;
-    transform: rotate(-28deg);
+    transform: rotate(-25deg);
+    margin-top: -60px;
+    margin-left: -23px;
 }
 
 .wandmiddleottom{
     position: relative;
     width: 71.75px;
     height: 65.86px;
-    margin-top: 10px;
-    margin-left: 13px;
+    margin-top: -95px;
+    margin-left: 11px;
     background: #FED940;
     border: 1px solid #000000;
     border-radius: 805px;
+    transform: rotate(-12.85deg);
+}
+
+.wandmiddletop{
+    position: relative;
+    width: 57.99px;
+    height: 53.08px;
+    margin-top: -62px;
+    margin-left: 18px;
+    background: #FED940;
+    border: 1px solid #000000;
+    box-shadow: -1px 4px 0px #F3B045, inset 1px -5px 0px #F3B045;
+    border-radius: 825px;
     transform: rotate(-12.85deg);
 }
 
@@ -67,34 +91,21 @@ body {
     width: 57.99px;
     height: 44.23px;
     margin-top: -55px;
-    margin-left: 18px;
+    margin-left: 17px;
     background: #FED940;
     border: 1px solid #000000;
     transform: rotate(-12.85deg);
     border-radius: 805px; }
 
-.wandmiddletop{
-    position: relative;
-    width: 57.99px;
-    height: 53.08px;
-    margin-top: -67px;
-    margin-left: 19px;
-    background: #FED940;
-    border: 1px solid #000000;
-    box-shadow: -1px 4px 0px #F3B045, inset 1px -5px 0px #F3B045;
-    border-radius: 825px;
-    transform: rotate(-12.85deg);
-
-}
 
 .wandmiddlepink{
     position: relative;
     width: 40px;
     height: 40px;
-    margin-top: -47px;
+    margin-top: -46px;
     margin-left: 27px;
     background: #CB4D90;
-border: 0.3px solid #000000;
+    border: 0.3px solid #000000;
     box-shadow: inset 1px 1px 0px #FEFEFE;
     border-radius: 103px;
 }
@@ -126,7 +137,7 @@ border: 0.3px solid #000000;
     height: 15px;
     position: relative;
     margin-top: 4px;
-    margin-left: 31px;
+    margin-left: 32px;
     background: #F3B047;
     border: 0.3px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25), inset 1px 1px 0px #FEFEFE, inset 3px 1px 0px 3px #FED940;
@@ -138,7 +149,7 @@ border: 0.3px solid #000000;
     width: 6px;
     height: 6px;
     margin-top: -13px;
-    margin-left: 36px;
+    margin-left: 37px;
     background: #FFFFFF;
     border-radius: 88px;
     /* z-index: 1; */
@@ -148,8 +159,8 @@ border: 0.3px solid #000000;
     width: 15px;
     height: 15px;
     position: relative;
-    margin-top: -9px;
-    margin-left: 47px;
+    margin-top: -8px;
+    margin-left: 48px;
     background: #088301;
     border: 0.3px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25), inset 1px 1px 0px #FEFEFE, inset 3px 1px 0px 3px #03A400;
@@ -170,13 +181,13 @@ border: 0.3px solid #000000;
     position: relative;
     width: 8px;
     height: 8px;
-    margin-top: -35px;
+    margin-top: -30px;
     margin-left: 32px;
     background: #FED940;
     border: 0.3px solid #000000; 
     border-radius: 9px;
     transform: rotate(-32.85deg);
-
+    z-index: 1;
 }
 
 .yellowballtopmiddle{
@@ -184,12 +195,12 @@ border: 0.3px solid #000000;
     width: 8px;
     height: 8px;
     margin-top: -12px;
-    margin-left: 50px;
+    margin-left: 51px;
     background: #FED940;
     border: 0.3px solid #000000; 
     border-radius: 9px;
     transform: rotate(-32.85deg);
-
+    z-index: 1;
 }
 
 .yellowballtopleft{
@@ -197,45 +208,44 @@ border: 0.3px solid #000000;
     width: 8px;
     height: 8px;
     margin-top: -10px;
-    margin-left: 41.4px;
+    margin-left: 41px;
     background: #FED940;
     border: 0.3px solid #000000;
     border-radius: 9px; 
     transform: rotate(-32.85deg);
+    z-index: 1;
 }
 
 .ribbonright{
     position: relative;
     width: 15.66px;
     height: 22.96px;
-    margin-top: -19px;
+    margin-top: -17px;
     margin-left: 60px;
     background: #FED940;
     border: 0.5px solid #000000;
     transform: rotate(55.78deg);
     border-radius: 20px 0 20px 0;
-    z-index: -1;
 }
 
 .ribbonleft{
     position: relative;
     width: 15.66px;
     height: 22.96px;
-    margin-top: -20px;
-    margin-left: 12px;
+    margin-top: -19px;
+    margin-left: 14px;
     background: #FED940;
     border: 0.5px solid #000000;
     transform: rotate(-122.85deg);
     border-radius: 20px 0 20px 0;
-    z-index: -1;
 }
 
 .yellowballbottomright{
     position: relative;
     width: 8.85px;
     height: 8.85px;   
-    margin-top: 70px;
-    margin-left: 80px;
+    margin-top: 0px;
+    margin-left: 70px;
     background: #F3B047;
     border: 0.5px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25), inset 1px 1px 0px #FEFEFE, inset 1px 1px 0px 2px #FED940;
@@ -243,27 +253,103 @@ border: 0.3px solid #000000;
     transform: rotate(-32.85deg);
 }
 
-.yellowballbottomright{
-
+.yellowballbottomrightrefelction{
+    width: 3.93px;
+    height: 3.93px;
+    margin-top: -8px;
+    margin-left: 72px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transform: rotate(-32.85deg);
 }
 
-.yellowballbottomright{
-
+.yellowballbottommiddle{
+    position: relative;
+    width: 8.85px;
+    height: 8.85px;   
+    margin-top: 0px;
+    margin-left: 14px;
+    background: #F3B047;
+    border: 0.5px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25), inset 1px 1px 0px #FEFEFE, inset 1px 1px 0px 2px #FED940;
+    border-radius: 9px;
+    transform: rotate(-32.85deg);
 }
 
+.yellowballbottommiddlerefelction{
+    width: 3.93px;
+    height: 3.93px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transform: rotate(-32.85deg);
+}
 
+.yellowballbottomleft{
+    position: relative;
+    width: 8.85px;
+    height: 8.85px;   
+    margin-top: 23px;
+    margin-left: 47px;
+    background: #F3B047;
+    border: 0.5px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25), inset 1px 1px 0px #FEFEFE, inset 1px 1px 0px 2px #FED940;
+    border-radius: 9px;
+    transform: rotate(-32.85deg);
+}
+
+.yellowballbottomleftrefelction{
+    width: 3.93px;
+    height: 3.93px;
+    margin-top: -7px;
+    margin-left: 49px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 9px;
+    transform: rotate(-32.85deg);
+}
 
 .wandstick{
     position: relative;
     width: 53.08px;
     height: 284.11px;
-    margin-top: 0px;
-    margin-left: 85px;
+    margin-top: -20px;
+    margin-left: 75px;
     background: #E26994;
     border: 0.5px solid #000000;
     box-shadow: inset -15px 45px 4px #CB4D8C;
-    transform: rotate(-32.85deg);
+    transform: rotate(-28deg);
     border-radius: 20px 20px 20px 20px;
-    z-index: -1000;
+    z-index: -1;
 }
 
+.wandbottombig{
+    position: relative;
+    width: 99.28px;
+    height: 60.94px;
+    margin-top: -40px;
+    margin-left: 120px;
+    background: #FED940;
+    border: 0.5px solid #000000;
+    box-shadow: inset 6px 0px 4px #F3B045, inset -14px -10px 4px #F3B045, inset -2px 29px 4px #F3B047;
+    transform: rotate(-32.85deg);
+    border-radius: 120px 120px 132px 132px;
+    z-index: -10;
+}
+
+.wandbottomsmall{
+    position: relative;
+    width: 59.96px;
+    height: 39.32px;
+    margin-top: -30px;
+    margin-left: 153px;
+    border-radius: 110px 110px 259px 259px;
+    background: #F3B045;
+    border: 0.5px solid #000000;
+    box-shadow: inset -6px -4px 8px rgba(0, 0, 0, 0.25);
+    transform: rotate(-32.85deg);
+    z-index: -11;
+}
