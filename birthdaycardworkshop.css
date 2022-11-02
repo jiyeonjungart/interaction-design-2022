@@ -116,12 +116,12 @@ a:hover{
         font-style: normal;
     }
     
-    div:hover{
+    .happy:hover, .date:hover, .surali:hover{
         color: #78e6cc;
         font-family: blow-up,sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 110px;
+        font-size: 90px;
     }
     
     a:hover{
@@ -130,12 +130,12 @@ a:hover{
     
     .happy{
         margin-left: -100px;
-        margin-top: -330px;
+        margin-top: -310px;
         font-family: droog,sans-serif;
         font-weight: 900;
         font-style: normal;
         color:white;
-        font-size: 700%;
+        font-size: 100px;
         position: fixed;
         left: 50%;
         top:50%;
