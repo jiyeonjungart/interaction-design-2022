@@ -1,9 +1,4 @@
-body {
-	background: linear-gradient(-45deg, #f2e4e0, #ffb6d2, #aee8fd, #ffb6d2);
-	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
-	height: 100%;
-}
+
 
 @keyframes gradient {
 	to {
@@ -21,13 +16,9 @@ body {
     60% {transform: translateY(-65px);} 
  } 
 
-.container{
-    animation: bounce 2s ease infinite;
-    margin-top: 450px;
-    margin-left: -100px;
-}
 
-.birthday, .surali, .date{
+
+/* .birthday, .surali, .date{
     font-family: droog,sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -79,24 +70,206 @@ a:hover{
 
 .surali{
     margin-top: -100px;
-}
+} */
 
 @media only screen and (max-width: 599px) {
-    .birthday, .surali, .date{
-        font-size: 200px;
+    body {
+        background-color: #ffb6d2;
+    }
+
+    .container{
+        animation: bounce 2s ease infinite;
+        margin-top: 450px;
+        margin-left: -100px;
+    }
+    
+    .birthday, .date{
+        font-family: droog,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+        font-size: 100px;
+        position: fixed;
+        left: 50%;
+        margin-left: -230px;
+        top:50%;
+        line-height: 100px;
+    }
+    
+    .surali{
+        font-family: droog,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+        font-size: 100px;
+        position: fixed;
+        left: 50%;
+        margin-left: -230px;
+        top:50%;
+        margin-top: -110px;
+    }
+    
+    a:visited{
+        color: #662aff;
+        font-family: blow-up,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    div:hover{
+        color: #78e6cc;
+        font-family: blow-up,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110px;
+    }
+    
+    a:hover{
+        color: #afffd5;
+    }
+    
+    .happy{
+        margin-left: -100px;
+        margin-top: -330px;
+        font-family: droog,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+        font-size: 700%;
+        position: fixed;
+        left: 50%;
+        top:50%;
+    }
+    
+    .birthday{
+        margin-top: -200px;
+    
     }
 }
 
 
 @media only screen and (min-width: 600px) {
-    .birthday, .surali, .date{
-        font-size: 200px;
+    body {
+        background-color: #b6e1ff;
+    }
+
+    .container{
+        animation: bounce 2s ease infinite;
+        margin-top: 450px;
+        margin-left: -30px;
+    }
+    
+    .birthday, .date{
+        font-family: droog,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+        font-size: 100px;
+        position: fixed;
+        left: 50%;
+        margin-left: -230px;
+        top:50%;
+        line-height: 100px;
+    }
+    
+    .surali{
+        font-family: droog,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+        font-size: 100px;
+        position: fixed;
+        left: 50%;
+        margin-left: -230px;
+        top:50%;
+        margin-top: -110px;
+    }
+
+    a:visited{
+        color: #ff2a7c;
+        font-family: blow-up,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    div:hover{
+        color: #7812c2;
+        font-family: blow-up,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110px;
+    }
+    
+    a:hover{
+        color: #3cefff;
+    }
+    
+    .happy{
+        transform: rotate(90deg);
+        margin-left: -400px;
+        margin-top: -80px;
+        font-family: droog,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+        font-size: 70px;
+        position: fixed;
+        left: 50%;
+        top:50%;
+    }
+    
+    .birthday{
+        margin-top: -200px;
+    
     }
 }
 
 
 @media only screen and (min-width: 889px) {
+    body {
+        background: linear-gradient(-45deg, #f2e4e0, #ffb6d2, #aee8fd, #ffb6d2);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+        height: 100%;
+    }
+    
+    .container{
+        animation: bounce 2s ease infinite;
+        margin-top: 350px;
+        margin-left: -60px;
+    }
+
     .birthday, .surali, .date{
+        font-size: 120px;
+        margin-left: -400px;
+    }
+    .birthday{
+        margin-top: 0px;
+    }
+    .surali{
+        margin-top: 90px;
+    }
+    .date{
+        
+        margin-top: 230px;
+        line-height: 100px;
+    }
+    .happy{
+        transform: rotate(0deg);
         font-size: 200px;
+        margin-left: -400px;
+        margin-top: -220px;
+    }
+   .happy:hover{
+        color: #ff03b3;
+        font-family: blow-up,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 220px;
+    }
+    .container{
+        animation: bounce 2s ease infinite;
+        margin-top: 350px;
+        margin-left: -100px;
     }
 }
