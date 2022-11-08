@@ -57,8 +57,8 @@ body {
     position: fixed;
     z-index: 1000;
     transform: rotate(-25deg);
-    margin-top: 20px;
-    margin-left: -23px;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .wandmiddleottom{
@@ -316,8 +316,8 @@ body {
     position: relative;
     width: 53.08px;
     height: 284.11px;
-    margin-top: -20px;
-    margin-left: 75px;
+    margin-top: -40px;
+    margin-left: 83px;
     background: #E26994;
     border: 0.5px solid #000000;
     box-shadow: inset -15px 45px 4px #CB4D8C;
@@ -331,7 +331,7 @@ body {
     width: 99.28px;
     height: 60.94px;
     margin-top: -40px;
-    margin-left: 120px;
+    margin-left: 130px;
     background: #FED940;
     border: 0.5px solid #000000;
     box-shadow: inset 6px 0px 4px #F3B045, inset -14px -10px 4px #F3B045, inset -2px 29px 4px #F3B047;
@@ -345,7 +345,7 @@ body {
     width: 59.96px;
     height: 39.32px;
     margin-top: -30px;
-    margin-left: 153px;
+    margin-left: 163px;
     border-radius: 110px 110px 259px 259px;
     background: #F3B045;
     border: 0.5px solid #000000;
