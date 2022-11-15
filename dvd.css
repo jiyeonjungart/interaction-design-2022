@@ -138,3 +138,11 @@ body {
     background-size: 3em 3em;
     border-radius: 231px;
 }
+
+@media only screen and (max-width: 550px) {
+    .dvd{
+        transform: scale(.6) ;
+        margin-top: 332.5px;
+        margin-left: -4.5px;
+    }
+}
