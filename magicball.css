@@ -107,7 +107,6 @@ body{
     height: 160px;
     left: 50%;
     top: 50%;
-    margin-top: 130px;
     margin-left: -90px;
     clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
     background: radial-gradient(50% 50% at 50% 50%, rgba(175, 207, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #17164B;
