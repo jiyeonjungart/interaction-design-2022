@@ -3,8 +3,8 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-    background: #CDE1F4;
-    background-image: linear-gradient(#B399CE .5px, transparent .1em), linear-gradient(90deg, #B399CE .5px, transparent .1em);
+    background: green;
+    /* background-image: linear-gradient(#B399CE .5px, transparent .1em), linear-gradient(90deg, #B399CE .5px, transparent .1em); */
     background-size: 3.5em 3.5em;
   }
 
